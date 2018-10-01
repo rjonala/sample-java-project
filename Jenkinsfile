@@ -1,8 +1,8 @@
-Pipeline{
-  stages{
-    stage('Build'){
-      steps{
-        sh 'echo hello'
+pipeline {
+  stages {
+    stage('HelloWorld') {
+      steps {
+        echo 'Hello World'
       }
     }
   }
